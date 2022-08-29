@@ -52,6 +52,7 @@ form.addEventListener("submit", (e) => {
     newListItem.style.listStyleType = "none"
     newListItem.innerText = input.value
     uList.append(newListItem)
+    input.value = ""
 })
 
 // clear list when clearBtn is clicked
@@ -59,6 +60,11 @@ clearBtn.addEventListener("click", (e) => {
     e.preventDefault()
     uList.innerText = ""
 })
+
+// clearBtn.addEventListener('click', function (evt) {
+//   evt.target.matches('li') && evt.target.remove();
+// });
+
 
 
 
