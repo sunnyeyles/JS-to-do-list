@@ -61,9 +61,7 @@ clearBtn.addEventListener("click", (e) => {
     uList.innerText = ""
 })
 
-// clearBtn.addEventListener('click', function (evt) {
-//   evt.target.matches('li') && evt.target.remove();
-// });
+
 
 
 
